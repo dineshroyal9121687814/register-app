@@ -9,7 +9,7 @@ pipeline {
             APP_NAME = "register-app-pipeline"
             RELEASE = "1.0.0"
             DOCKER_USER = "dinesh9121"
-            DOCKER_PASS = 'dockerhub'
+            DOCKER_PASS = 'Anilkumar143@'
             IMAGE_NAME = "${DOCKER_USER}" + "/" + "${APP_NAME}"
             IMAGE_TAG = "${RELEASE}-${BUILD_NUMBER}"
             JENKINS_API_TOKEN = credentials("JENKINS_API_TOKEN")
