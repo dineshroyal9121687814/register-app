@@ -4,6 +4,7 @@ pipeline {
         jdk 'local_setup_jdk'
         maven 'maven3_6'
     }
+
     
     stages{
         stage("Cleanup Workspace"){
